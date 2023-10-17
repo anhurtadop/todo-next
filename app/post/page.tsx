@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import Posts from '../../components/posts'
+import Posts from './../../components/posts'
 
 export const metadata: Metadata = {
   title: 'Post',
