@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Posts from './../../components/Posts'
 
 export const metadata: Metadata = {
   title: 'About',
@@ -10,7 +9,7 @@ export default function About() {
   return (
     <section>
       <h1>About Page</h1>
-      <Posts />
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nihil inventore veniam nisi a. Nostrum odio voluptatum quam itaque voluptatem et, adipisci expedita dolorem cupiditate, at illo esse! Eaque, voluptatem.</p>
     </section>
   )
 }

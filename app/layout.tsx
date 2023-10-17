@@ -24,7 +24,8 @@ export default function RootLayout({
       <body className={nunito.className}>
         <article className="text-center">
           <Link href={'/'} className='mr-4 uppercase'>Home</Link>
-          <Link href={'/about'} className='uppercase'>About</Link>
+          <Link href={'/about'} className='mr-4 uppercase'>About</Link>
+          <Link href={'/post'} className='uppercase'>Post</Link>
         </article>
         <main className='flex min-h-screen flex-col items-center justify-between p-24'>{children}</main>
       </body>

@@ -4,3 +4,11 @@
   background-color: blue;
   color: white;
 }
+
+.ul {
+  padding: 2px;
+}
+
+.ul > li {
+  list-style: circle;
+}

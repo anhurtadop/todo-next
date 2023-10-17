@@ -9,6 +9,7 @@ export default function Home() {
   return (
     <section>
       <h1>Home Page</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem dicta ipsam architecto, adipisci ab voluptatibus odio velit quia ex itaque? Ipsa fugiat mollitia natus enim quia et. Aliquid, fugiat reprehenderit.</p>
     </section>
   )
 }
