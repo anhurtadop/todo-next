@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import Posts from '@/components/posts'
+import Posts from '@/components/PostList'
 
 export const metadata: Metadata = {
   title: 'Post',
@@ -11,7 +11,7 @@ const loadPosts = async () => {
   return await response.json();
 }
 
-export default async function Post() {
+export default async function PostPage() {
   const posts = await loadPosts();
 
   return (

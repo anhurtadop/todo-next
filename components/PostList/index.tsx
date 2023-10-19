@@ -1,10 +1,10 @@
 import styles from './styles.module.scss';
 
-export interface PostProps {
+export interface PostListProps {
   posts: any
 }
 
-const Posts: React.FC<PostProps> = (props) => {
+const PostList: React.FC<PostListProps> = (props) => {
   return (
     <ul className={styles.ul}>
       {props.posts.map((post: any) => (
@@ -16,4 +16,4 @@ const Posts: React.FC<PostProps> = (props) => {
   )
 }
 
-export default Posts
+export default PostList
